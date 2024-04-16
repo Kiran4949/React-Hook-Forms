@@ -1,0 +1,57 @@
+.form {
+  max-width: 500px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form .password-input-container {
+  position: relative;
+  height: 40px;
+}
+
+.form .password-input-container input {
+  height: 100%;
+}
+
+.form .password-toggle-icon {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.form .error {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: 2px;
+}
+
+.form .decorate {
+  text-decoration: none;
+}
+
+.form .button-container {
+  text-align: center;
+}
+
+.form button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
